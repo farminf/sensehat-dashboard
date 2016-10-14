@@ -1,0 +1,27 @@
+
+
+<nav class="navbar navbar-default navbar-fixed-top "  style="background-color: #F5F7E1; height: 60px ; width: auto">
+  <div class="container-fluid">
+
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle"
+      ng-init="navCollapsed = true"
+      ng-click="navCollapsed = !navCollapsed">
+        <span class="sr-only">Toggle navigation</span> 
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>
+      </button>
+      <div class="logo logo_place">
+       <a href="#/home"><img HEIGHT="50" WIDTH="200" src="app/images/logo.png" ></a>
+      </div>
+      <div class="navbar-collapse collapse"  ng-class="!navCollapsed && 'in'" >
+        <ul class="nav collapse" ng-class="!navCollapsed && 'in'">
+          <li><a class="toggle_button_label" href="#/home"> home </a></li>
+       </ul>
+      </div>
+    </div> 
+  </div>  
+</nav>
+
+

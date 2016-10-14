@@ -1,0 +1,34 @@
+<div class="col-md-10 home_box panel panel-default" ng-controller="dashTextMeasureController as ctrl">
+      <h3>Current Temperature</h3>
+      <img HEIGHT="150" WIDTH="150" src="app/images/temperature_home_current.png">
+      <dash-text-measure value="value" dash-unit="'C'"  dash-id="'users'" ng-init="init('temperature')"></dash-text-measure>
+</div>
+
+<div class="col-md-10 home_box panel panel-default" ng-controller="dashTextMeasureController as ctrl">
+      <h3>Current Humidity</h3>
+      <img HEIGHT="150" WIDTH="150" src="app/images/humidity_home_current.png">
+      <dash-text-measure value="value" dash-unit="'%'"  dash-id="'users'" ng-init="init('humidity')"></dash-text-measure>
+</div>
+
+<div class="col-md-10 home_box panel panel-default" ng-controller="dashTextMeasureController as ctrl">
+      <h3>Current Pressure</h3>
+      <img HEIGHT="150" WIDTH="150" src="app/images/pressure_home_current.png">
+      <dash-text-measure value="value" dash-unit="'MB'"  dash-id="'users'" ng-init="init('pressure')"></dash-text-measure>
+</div>
+
+
+    <div class="col-md-3" ng-controller="dashWeatherController">     
+    	<dash-weatherbigtoday  content= 'place' ng-init="findWeather('Milan','it')" ></dash-weatherbigtoday>
+    </div>
+
+
+<div class="col-md-10 home_box_weather panel panel-default">
+    <h3>Weather Forecast</h3>
+    <div class="col-md-12" ng-controller="dashWeatherController">     
+    	<div class="weather_forecast_small" ng-init="findWeather('Milan','it')" >
+    		<div class="col-md-3" ng-repeat="forecast in place.item.forecast | limitTo: 7">
+    			<dash-weatherbigforecast content='forecast' ></dash-weatherbigforecast>
+    		</div>
+        </div>      
+    </div>
+</div>

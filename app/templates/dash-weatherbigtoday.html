@@ -1,0 +1,15 @@
+<div class="panel panel-default weather_box_oneday_big">
+	<div class="panel-heading" >
+		<B style="font-size:100%;">{{$ctrl.content.location.city}} </B>  
+		<B style="font-size:100%;">{{$ctrl.content.item.condition.temp}}°</B>
+		
+	</div>
+	<div class="panel-body">
+		<br><i class="wi wi-yahoo-{{$ctrl.content.item.condition.code}}" ng-if="+'wi wi-yahoo-'+'$ctrl.content.item.condition.code'" style="font-size:500%;"></i>
+		<p></p>
+		<p style="font-size:150%;"> {{$ctrl.content.item.condition.text}}</p>
+		<p style="font-size:120%;"> Humidity: {{$ctrl.content.atmosphere.humidity}}%</p>
+		<p style="font-size:120%;"> Wind: {{$ctrl.content.wind.speed}}km/h</p>
+		<p style="font-size:120%;"> Pressure: {{$ctrl.content.atmosphere.pressure}} mb</p>
+	</div>
+</div>

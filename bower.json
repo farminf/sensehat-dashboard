@@ -1,0 +1,35 @@
+{
+  "name": "sensehat-dashboard",
+  "description": "A simple dashboard for showing Sense Hat sensor data...",
+  "main": "index.js",
+  "authors": [
+    "IoTGuy <iotdemos2016@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "iotdemos.wordpress.com",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5",
+    "font-awesome": "^4.6.1",
+    "weather-icons": "^2.0.10",
+    "angular-bootstrap" : "^1.3.2",
+    "restangular": "^1.5.2",
+    "lodash": "^4.11.2" ,
+    "angular-bootstrap-switch": "^0.5.0",
+    "bootstrap-switch" : "3.3.2",
+    "d3": "^3.5.17",
+    "angular-nvd3": "^1.0.7",
+    "angular-animate": "^1.5.5",
+    "angular-ui-clock": "^0.5.1",
+    "angular-route": "^1.5.5"
+
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ]
+}

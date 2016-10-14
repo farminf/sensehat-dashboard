@@ -1,0 +1,58 @@
+
+body {
+  padding-top: 80px;
+}
+
+.text_value {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 150%;
+}
+.home_box {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.nav_link_center {
+  margin: 10 50;
+  text-align: center;
+}
+
+.panel-default>.panel-heading {
+  background-color: transparent;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 150%;
+  height: 50px
+}
+
+.logo_place {
+  margin: 0 20;
+  text-align: center;
+}
+
+.home_box_weather {
+  width: 1200px;
+  height: 320px;
+  text-align: center;
+}
+
+.weather_big_forecast_box {
+  width: 150px;
+  height: 220px;
+  text-align: center;
+}
+.weather_forecast_small {
+  width: 700px;
+  height: 200px;
+  text-align: center;
+}
+
+.weather_box_oneday_big {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}

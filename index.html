@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap -->
+<link href="app/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- FontAwesome -->
+<link href="app/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Weather Icons -->
+<link href="app/lib/weather-icons/css/weather-icons.min.css" rel="stylesheet">
+<link href="app/lib/weather-icons/css/weather-icons-wind.min.css" rel="stylesheet">
+<!-- nvd3 css -->
+<link rel="stylesheet" href="app/lib/nvd3/build/nv.d3.min.css">
+<!-- ui.bootstrap css -->
+<link href="app/lib/angular-bootstrap/ui-bootstrap-csp.css" rel="stylesheet">
+<!-- Bootstrap switch -->
+<link href="app/lib/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="app/css/style.css" rel="stylesheet">      
+</head>
+
+<body ng-app="app" ng-cloak>
+
+  <dash-navigation> </dash-navigation>
+
+  <div class="col-sm-10  col-md-10 ">
+    <div ng-view></div>
+  </div>
+
+   <script src="app/lib/jquery/dist/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="app/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+   <!-- include angular.js -->
+   <script src="app/lib/angular/angular.min.js"></script>
+   <!-- include angular-bootstrap -->
+   <script src="app/lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+   <!-- include angular route -->
+   <script src="app/lib/angular-route/angular-route.min.js"></script>
+   <!-- include angular bootstrap switch library -->
+   <script src="app/lib/angular-bootstrap-switch/dist/angular-bootstrap-switch.min.js"></script>
+   <!-- include bootstrap switch -->
+   <script src="app/lib/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
+
+   <!-- include d3.js -->
+   <script src="app/lib/d3/d3.min.js"></script>
+
+   <!-- include nvd3.js -->
+   <script src="app/lib/nvd3/build/nv.d3.min.js"></script>
+   <script src="app/lib/angular-nvd3/dist/angular-nvd3.min.js"></script>
+
+   <!-- include the libraries needed to use restangular -->
+   <script src="app/lib/restangular/dist/restangular.min.js"></script>
+   <script src="app/lib/lodash/dist/lodash.min.js"></script>
+   <!-- include angular-ui-clock.js -->
+   <script src="app/lib/angular-ui-clock/dist/angular-clock.js"></script>
+
+
+   <!-- include js files of app  -->
+   <script src="app/js/app.js"></script>
+   <script src="app/js/dash-navigation.js"></script>
+   <script src="app/js/dash-text-measure.js"></script>
+   <script src="app/js/dash-weatherbig.js"></script>
+
+
+
+ </div>
+</body>
+</html>
