@@ -4,7 +4,7 @@ var app = angular.module('app', [ 'ngRoute','restangular' ,'dashNavigation' ,'da
 
 app.config(function(RestangularProvider) {
 	RestangularProvider
-			.setBaseUrl('http://192.168.233.154:3000');
+			.setBaseUrl('http://localhost:3000');
 });
 
 // declare the routes

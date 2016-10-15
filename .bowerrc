@@ -1,5 +1,3 @@
 {
-	"directory":"app/lib",
-	"proxy": "http://sprite.techedge.corp:3128",
-  	"https-proxy":"http://sprite.techedge.corp:3128"
+	"directory":"app/lib"
 }

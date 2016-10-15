@@ -1,14 +1,11 @@
-# Sensehat API
+# Sensehat Dashboard
 
-A simple Dashboard implemented with Angularjs and Bootstrap for showing sensor data like as temperatue,humidity and pressure.
-It contains near real-time and historical data of the Sense hat sensors (using sensehat api project) and additionally there is integration with Yahoo Weather API for forcast and current outside weather.
+A simple Dashboard implemented with Angularjs and Bootstrap for showing Sense HAT sensor data like as temperatue, humidity and pressure.
+It contains near real-time and historical data of the Sense hat sensors (using sensehat api project) and additionally there is an integration with Yahoo Weather API for forcast and current outside weather.
 
 
-## Installation
+## Running
 
-```bash
-npm install
-```
 
 ```bash
 npm start
